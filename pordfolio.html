@@ -14,42 +14,35 @@
   </head>
 
   <body>
-    <header class="header border-line-bottom header-positions">
-      <a class="logo logo-pading" href="index.html"
-        ><span class="blue">Web</span>Studio</a
-      >
+    <header class="header ">
 
-      <nav class="">
-        <ul class="ul header-positions">
-          <li>
-            <a class="nav-inne nav-pading-1" href="index.html">Agencja</a>
-          </li>
-          <li>
-            <a class="nav-this nav-pading-1 nav-bar" href="./pordfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li><a class="nav-inne nav-pading-2" href="Kontakt">Kontakt</a></li>
-        </ul>
+      <a class="logo" href="index.html"><span class="logo--blue">Web</span>Studio</a>
+      <nav >
+          <ul class="navigation">
+              <li><a class="navigation__link" href="index.html">Agencja</a></li>
+              <li><a class="navigation__link  navigation--color navigation__link--bar" href="./pordfolio.html">Portfolio</a></li>
+              <li><a class="navigation__link navigation__link--end " href="Kontakt">Kontakt</a></li>
+          </ul>
       </nav>
-      <div class="header-positions">
-        <div>
-          <a class="email-header nav-pading-3" href="mailto=info@devstudio.com">
-            <svg class="icon-com" width="16px" height="12px">
-              <use href="./images/icons.svg#icon-envelope-1"></use>
-            </svg>
-            info@devstudio.com</a
-          >
+      <div class="navigation">
+          <div> 
+              <a class="navigation__contact " href="mailto=info@devstudio.com"> 
+                  <svg class="navigation__svg"
+                      width="16px" height="12px">
+                      <use href="./images/icons.svg#icon-envelope-1"></use>
+                  </svg> info@devstudio.com</a>
+          </div>
+          <div>
 
-          <a class="tel-header" href="+48 111 111 111">
-            <svg class="icon-com" width="10px" height="16px">
-              <use href="./images/icons.svg#icon-smartphone"></use>
-            </svg>
-            +48 111 111 111</a
-          >
-        </div>
-      </div>
-    </header>
+              <a class="navigation__contact  navigation__contact--end" href="+48 111 111 111">
+                   <svg class="navigation__svg" width="10px" height="16px">
+                      <use href="./images/icons.svg#icon-smartphone"></use>
+                  </svg>+48 111 111 111</a>
+                  
+          </div>
+      
+
+  </header>>
     <main class="containery section">
       <div>
         <div class="button__box">
@@ -257,35 +250,30 @@
     <footer class="footer">
       <div>
         <a class="logo" href="index.html"
-          ><span class="blue">Web</span>Studio</a
-        >
-        <ul class="ul address-footer">
+          ><span class="logo--blue">Web</span>Studio</a >
+        <ul class=" contact-list">
           <li>
-            <a class="footer-adres" href=""
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
+            <a class="contact-list__adres" href="">m. Warszawa, Aleje Jerozolimskie 21</a>
           </li>
 
-          <li class="li-padding">
-            <a
-              class="tel-email-footer underline"
-              href=" mailto=info@devstudio.com"
-              >info@example.com</a
-            >
+          <li class="contact-list__between">
+            <a class="contact-list__tel-email "
+              href=" mailto=info@devstudio.com">info@example.com</a>
           </li>
 
           <li>
-            <a class="tel-email-footer text-decoration-n" href="+48 111 111 111"
+            <a class="contact-list__tel-email contact-list--decoration-not" href="+48 111 111 111"
               >+48 111 111 111</a
             >
           </li>
         </ul>
       </div>
       <div>
-        <span class="title-media-footer">Dołącz do nas</span>
-        <div class="media-card-footer">
-          <a class="media-icon-footer"
-            ><svg class="">
+      
+        <span class="footer__title">Dołącz do nas</span>
+        <div class="media">
+          <a class="media__icon"
+            ><svg >
               <use
                 href="./images/icons.svg#icon-instagram"
                 width="20px"
@@ -294,8 +282,8 @@
                 y="12px"></use>
             </svg>
           </a>
-          <a class="media-icon-footer"
-            ><svg class="">
+          <a class="media__icon"
+            ><svg >
               <use
                 href="./images/icons.svg#icon-twitter"
                 width="20px"
@@ -304,8 +292,8 @@
                 y="12px"></use>
             </svg>
           </a>
-          <a class="media-icon-footer"
-            ><svg class="">
+          <a class="media__icon"
+            ><svg >
               <use
                 href="./images/icons.svg#icon-facebook"
                 width="20px"
@@ -315,8 +303,8 @@
             </svg>
           </a>
 
-          <a class="media-icon-footer"
-            ><svg class="">
+          <a class="media__icon"
+            ><svg >
               <use
                 href="./images/icons.svg#icon-linkedin2"
                 width="20px"
@@ -327,26 +315,19 @@
           </a>
         </div>
       </div>
-      <div>
-        <label for="E-mail-newsletter">
-          <span class="title-media-footer">zapisz sie do newslettera</span>
-
-          <form class="one-bar-newsletter">
-            <input
-              type="email"
-              name="E-mail-newsletter"
-              id="E-mail-newsletter"
-              placeholder="E-mail"
-              class="email-bar" />
-            <button class="button-sett" type="submit">
-              Zapisz sie
-              <svg class="newsletter-svg" width="22px" height="24px">
-                <use href="./images/icons.svg#icon-News"></use>
-              </svg>
+    <div><label for="E-mail-newsletter">
+        <span class="footer__title">zapisz sie do newslettera</span>
+      
+          <form class=" newsletter">
+            <input type="email" name="E-mail-newsletter" id="E-mail-newsletter" placeholder="E-mail" class="newsletter__bar" />
+            <button class="newsletter__button " type="submit">
+               Zapisz sie <svg  class="newsletter__svg" width="22px"
+                  height="24px" > <use href="./images/icons.svg#icon-News"></use></svg> 
             </button>
           </form>
-        </label>
+      </label>
       </div>
+     
     </footer>
   </body>
 </html>
