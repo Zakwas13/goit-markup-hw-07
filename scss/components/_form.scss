@@ -1,0 +1,93 @@
+.form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 0.01em;
+
+  display: inline;
+  &_position {
+    position: relative;
+  }
+  &__svg {
+    position: absolute;
+
+    left: 14px;
+    top: 33px;
+
+    outline: none;
+  }
+  &_input-field {
+    outline: none;
+    width: 448px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding-left: 42px;
+    outline: none;
+  }
+  &_coment {
+    width: 448px;
+    height: 120px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-top: 4px;
+
+    margin-bottom: 10px;
+
+    padding: 12px 16px 12px 16px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+  }
+  &_checkbox-check {
+    position: absolute;
+    left: 2px;
+    top: 0px;
+  }
+  &__checkbox {
+    width: 16px;
+
+    height: 15px;
+
+    border-radius: 2px;
+    appearance: none;
+    border: solid 2px;
+    &:checked {
+      content: "";
+
+      width: 16px;
+      height: 15px;
+
+      border-radius: 2px;
+    }
+  }
+  &--blue-underline {
+    text-decoration: underline;
+  }
+  &__button-submit {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 10px 35px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    display: block;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    margin: auto;
+
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,29 @@
+.containery {
+  width: 1200px;
+  margin: auto;
+  max-width: 1600px;
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 0px;
+  &__svg {
+    display: flex;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  &__text {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1, 8;
+    letter-spacing: 0.03em;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 4;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+}

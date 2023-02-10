@@ -1,0 +1,25 @@
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  &__logo {
+    padding-top: 17.71px;
+    padding-bottom: 14.25px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border: 1px solid;
+    border-radius: 4px;
+
+    display: block;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+  }
+}

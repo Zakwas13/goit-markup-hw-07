@@ -1,0 +1,270 @@
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: #ffffff;
+  border-bottom: #ececec;
+}
+.logo {
+  font-family: "Raleway";
+  color: #000000;
+
+  &:hover {
+    color: #2196f3;
+  }
+  &--blue {
+    color: #2196f3;
+  }
+}
+.navigation {
+  &__link {
+    color: #212121;
+    &:hover {
+      color: #2196f3;
+    }
+    &:focus {
+      color: #2196f3;
+    }
+  }
+  &--color {
+    color: #2196f3;
+    &:focus {
+      color: #2196f3;
+    }
+  }
+  &__link--bar::after {
+    background-color: #2196f3;
+  }
+
+  &__contact {
+    color: #757575;
+    &:hover {
+      color: #2196f3;
+      fill: #2196f3;
+    }
+    &:focus {
+      color: #2196f3;
+      fill: #2196f3;
+    }
+  }
+  &__svg {
+    fill: #757575;
+  }
+}
+.wallpaper {
+  background-color: #2f303a;
+  &__title {
+    color: #ffffff;
+  }
+  &__button {
+    color: #ffffff;
+    background: #2196f3;
+    &:focus {
+      color: #212121;
+    }
+  }
+}
+
+.containery {
+  &__svg {
+    background: #f5f4fa;
+
+    &__text {
+      color: #757575;
+    }
+    &__title {
+      color: #212121;
+    }
+  }
+}
+.section {
+  &__title {
+    color: #212121;
+  }
+}
+.section--background-color {
+  background: #f5f4fa;
+}
+
+.type-work {
+  &__text {
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #ffffff;
+  }
+}
+.person {
+  &__card {
+    background: #ffffff;
+  }
+
+  &__job-position {
+    color: #757575;
+  }
+
+  &__name {
+    color: #212121;
+  }
+}
+.person-media {
+  &__icon {
+    fill: #afb1b8;
+
+    background-color: #ffffff;
+    &hover {
+      background-color: #2196f3;
+      fill: #ffffff;
+    }
+  }
+}
+.client {
+  &__logo {
+    border: #afb1b8;
+
+    fill: #afb1b8;
+
+    &:hover {
+      border-color: #2196f3;
+      fill: #2196f3;
+    }
+  }
+}
+
+.button {
+  &:hover {
+    color: #ffffff;
+    background: #2196f3;
+  }
+  &:focus {
+    color: #2196f3;
+  }
+}
+.projects {
+  &__box {
+    background: #ffffff;
+  }
+
+  &__overlay {
+    background: rgba(33, 150, 243, 0.9);
+    color: #ffffff;
+  }
+  &__text-box {
+    border-left: #eeeeee;
+    border-right: #eeeeee;
+    border-bottom: #eeeeee;
+  }
+
+  &__coment {
+    color: #757575;
+  }
+}
+.footer {
+  background: #2f303a;
+
+  &__title {
+    color: #ffffff;
+  }
+}
+.contact-list {
+  &__adres {
+    color: #ffffff;
+    &:focus {
+      color: #2196f3;
+    }
+    &:hover {
+      color: #2196f3;
+    }
+  }
+  &__tel-email {
+    color: rgba(255, 255, 255, 0.6);
+    &:focus {
+      color: #2196f3;
+    }
+    &:hover {
+      color: #2196f3;
+    }
+  }
+}
+
+.media {
+  &__icon {
+    fill: #ffffff;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    &:hover {
+      background-color: #2196f3;
+      fill: #ffffff;
+    }
+  }
+}
+.newsletter {
+  &__button {
+    background: #2196f3;
+    color: #ffffff;
+  }
+  &__svg {
+    fill: #ffffff;
+  }
+  &__bar {
+    border: rgba(255, 255, 255, 0.3);
+    background: #2f303a;
+  }
+}
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal {
+  background: #ffffff;
+
+  &__button-close {
+    border: rgba(0, 0, 0, 0.1);
+  }
+  &__title {
+    font-family: "Roboto";
+    color: #212121;
+  }
+}
+.form {
+  font-family: "Roboto";
+
+  color: #757575;
+
+  &__svg {
+    fill: #212121;
+  }
+  &_input-field {
+    border: rgba(33, 33, 33, 0.2);
+  }
+  &_coment {
+    border: rgba(33, 33, 33, 0.2);
+
+    font-family: "Roboto";
+
+    color: rgba(117, 117, 117, 0.5);
+  }
+  &_checkbox-check {
+    fill: #ffffff;
+  }
+  &__checkbox {
+    background: #ffffff;
+
+    border: #000000;
+    &:checked {
+      background-color: #2196f3;
+      border-color: #2196f3;
+    }
+  }
+  &--blue-underline {
+    color: #2196f3;
+  }
+  &__button-submit {
+    background: #2196f3;
+
+    color: #ffffff;
+  }
+}
+.form__input-field:focus + .form__svg,
+.form__input-field:focus {
+  fill: #2196f3;
+  border-color: #2196f3;
+}

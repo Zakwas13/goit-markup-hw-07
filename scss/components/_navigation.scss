@@ -1,0 +1,46 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-right: 46px;
+    &--end {
+      margin-right: 364px;
+      padding-right: 0px;
+    }
+    & --bar {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 45px;
+        width: 100%;
+        bottom: -30.5px;
+        border-radius: 2px;
+        max-width: 50px;
+        height: 4px;
+      }
+    }
+  }
+  &__contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-right: 50px;
+    &--end {
+      padding-right: 0px;
+    }
+  }
+  &__svg {
+    margin-right: 10px;
+  }
+}
