@@ -6,19 +6,19 @@
   gap: 30px;
   padding-top: 94px;
   padding-bottom: 0px;
-  &__svg {
+  .containery__svg {
     display: flex;
     background: #f5f4fa;
     border-radius: 4px;
     margin-bottom: 30px;
   }
-  &__text {
+  .containery__text {
     color: #757575;
     font-size: 16px;
     line-height: 1, 8;
     letter-spacing: 0.03em;
   }
-  &__title {
+  .containery__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1, 4;

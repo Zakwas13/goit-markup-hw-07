@@ -3,12 +3,12 @@
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  &__logo {
+  .client__logo {
     padding-top: 17.71px;
     padding-bottom: 14.25px;
     padding-right: 32px;
     padding-left: 32px;
-    border: 1px solid;
+    border: 1px solid#afb1b8;
     border-radius: 4px;
 
     display: block;
@@ -16,7 +16,7 @@
       cursor: pointer;
     }
   }
-  &__list {
+  .client__list {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 30px;

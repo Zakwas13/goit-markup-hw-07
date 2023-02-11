@@ -1,24 +1,24 @@
 .contact-list {
   margin-top: 20px;
   margin-bottom: 60px;
-  &__adres {
+  .contact-list__adres {
     font-size: 14px;
     line-height: 1, 71428571;
     letter-spacing: 0.03em;
 
     text-decoration: none;
   }
-  &__between {
+  .contact-list__between {
     padding-top: 9px;
     padding-bottom: 9px;
   }
-  &__tel-email {
+  .contact-list__tel-email {
     font-weight: 400;
     font-size: 14px;
     line-height: 1, 71428571;
     letter-spacing: 0.03em;
   }
-  &--decoration-not {
+  .contact-list--decoration-not {
     text-decoration: none;
   }
 }

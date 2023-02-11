@@ -4,7 +4,7 @@
 
   gap: 30px;
   padding-top: 50px;
-  &__box {
+  .projects__box {
     &:hover {
       cursor: pointer;
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
@@ -12,13 +12,13 @@
     }
   }
 
-  &__img {
+  .projects__img {
     position: relative;
     width: 370px;
     height: 294px;
     overflow: hidden;
   }
-  &__overlay {
+  .projects__overlay {
     width: 100%;
     height: 100%;
     display: flex;
@@ -37,18 +37,18 @@
     transform: translateY(0%);
     transition: transform 0.5s;
   }
-  &__text-box {
+  .projects__text-box {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
+    border-left: 1px solid#eeeeee;
+    border-right: 1px solid#eeeeee;
+    border-bottom: 1px solid#eeeeee;
     display: block;
   }
-  &__title {
+  .projects__title {
     font-weight: 700;
     display: block;
     font-size: 18px;
@@ -56,7 +56,7 @@
     letter-spacing: 0.06em;
     padding-bottom: 4px;
   }
-  &__coment {
+  .projects__coment {
     font-size: 16px;
     line-height: 1, 875;
     letter-spacing: 0.03em;

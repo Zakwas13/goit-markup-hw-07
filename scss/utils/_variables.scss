@@ -4,7 +4,6 @@ body {
 }
 .header {
   background-color: #ffffff;
-  border-bottom: #ececec;
 }
 .logo {
   font-family: "Raleway";
@@ -13,12 +12,12 @@ body {
   &:hover {
     color: #2196f3;
   }
-  &--blue {
+  .logo--blue {
     color: #2196f3;
   }
 }
 .navigation {
-  &__link {
+  .navigation__link {
     color: #212121;
     &:hover {
       color: #2196f3;
@@ -27,17 +26,17 @@ body {
       color: #2196f3;
     }
   }
-  &--color {
+  .navigation--color {
     color: #2196f3;
     &:focus {
       color: #2196f3;
     }
   }
-  &__link--bar::after {
+  .navigation__link--bar::after {
     background-color: #2196f3;
   }
 
-  &__contact {
+  .navigation__contact {
     color: #757575;
     &:hover {
       color: #2196f3;
@@ -48,16 +47,16 @@ body {
       fill: #2196f3;
     }
   }
-  &__svg {
+  .navigation__svg {
     fill: #757575;
   }
 }
 .wallpaper {
   background-color: #2f303a;
-  &__title {
+  .wallpaper__title {
     color: #ffffff;
   }
-  &__button {
+  .wallpaper__button {
     color: #ffffff;
     background: #2196f3;
     &:focus {
@@ -67,13 +66,13 @@ body {
 }
 
 .containery {
-  &__svg {
+  .containery__svg {
     background: #f5f4fa;
 
-    &__text {
+    .containery__text {
       color: #757575;
     }
-    &__title {
+    .containery__title {
       color: #212121;
     }
   }
@@ -88,7 +87,7 @@ body {
 }
 
 .type-work {
-  &__text {
+  .type-work__text {
     background-color: rgba(47, 48, 58, 0.8);
     color: #ffffff;
   }
@@ -98,29 +97,27 @@ body {
     background: #ffffff;
   }
 
-  &__job-position {
+  .person__job-position {
     color: #757575;
   }
 
-  &__name {
+  .person__name {
     color: #212121;
   }
 }
 .person-media {
-  &__icon {
+  .person-media__icon {
     fill: #afb1b8;
 
     background-color: #ffffff;
-    &hover {
+    &:hover {
       background-color: #2196f3;
       fill: #ffffff;
     }
   }
 }
 .client {
-  &__logo {
-    border: #afb1b8;
-
+  .client__logo {
     fill: #afb1b8;
 
     &:hover {
@@ -140,33 +137,28 @@ body {
   }
 }
 .projects {
-  &__box {
+  .projects__box {
     background: #ffffff;
   }
 
-  &__overlay {
+  .projects__overlay {
     background: rgba(33, 150, 243, 0.9);
     color: #ffffff;
   }
-  &__text-box {
-    border-left: #eeeeee;
-    border-right: #eeeeee;
-    border-bottom: #eeeeee;
-  }
 
-  &__coment {
+  .projects__coment {
     color: #757575;
   }
 }
 .footer {
   background: #2f303a;
 
-  &__title {
+  .footer__title {
     color: #ffffff;
   }
 }
 .contact-list {
-  &__adres {
+  .contact-list__adres {
     color: #ffffff;
     &:focus {
       color: #2196f3;
@@ -175,7 +167,7 @@ body {
       color: #2196f3;
     }
   }
-  &__tel-email {
+  .contact-list__tel-email {
     color: rgba(255, 255, 255, 0.6);
     &:focus {
       color: #2196f3;
@@ -187,7 +179,7 @@ body {
 }
 
 .media {
-  &__icon {
+  .media__icon {
     fill: #ffffff;
 
     background-color: rgba(255, 255, 255, 0.1);
@@ -198,15 +190,14 @@ body {
   }
 }
 .newsletter {
-  &__button {
+  .newsletter__button {
     background: #2196f3;
     color: #ffffff;
   }
-  &__svg {
+  .newsletter__svg {
     fill: #ffffff;
   }
-  &__bar {
-    border: rgba(255, 255, 255, 0.3);
+  .newsletter__bar {
     background: #2f303a;
   }
 }
@@ -216,10 +207,10 @@ body {
 .modal {
   background: #ffffff;
 
-  &__button-close {
+  .modal__button-close {
     border: rgba(0, 0, 0, 0.1);
   }
-  &__title {
+  .modal__title {
     font-family: "Roboto";
     color: #212121;
   }
@@ -229,35 +220,30 @@ body {
 
   color: #757575;
 
-  &__svg {
+  .form__svg {
     fill: #212121;
   }
-  &_input-field {
-    border: rgba(33, 33, 33, 0.2);
-  }
-  &_coment {
-    border: rgba(33, 33, 33, 0.2);
 
+  .form__coment {
     font-family: "Roboto";
 
     color: rgba(117, 117, 117, 0.5);
   }
-  &_checkbox-check {
+  .from__checkbox-check {
     fill: #ffffff;
   }
-  &__checkbox {
+  .form__checkbox {
     background: #ffffff;
-
     border: #000000;
     &:checked {
       background-color: #2196f3;
       border-color: #2196f3;
     }
   }
-  &--blue-underline {
+  .form--blue-underline {
     color: #2196f3;
   }
-  &__button-submit {
+  .form__button-submit {
     background: #2196f3;
 
     color: #ffffff;
