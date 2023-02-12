@@ -8,15 +8,16 @@
   padding-bottom: 0px;
   .containery__svg {
     display: flex;
-    background: #f5f4fa;
+
     border-radius: 4px;
     margin-bottom: 30px;
+    background: #f5f4fa;
   }
   .containery__text {
-    color: #757575;
     font-size: 16px;
     line-height: 1, 8;
     letter-spacing: 0.03em;
+    color: #757575;
   }
   .containery__title {
     font-weight: 700;
@@ -24,6 +25,7 @@
     line-height: 1, 4;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
     color: #212121;
   }
 }

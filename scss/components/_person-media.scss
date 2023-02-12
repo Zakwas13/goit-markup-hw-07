@@ -5,15 +5,17 @@
 
   .person-media__icon {
     display: inline-flex;
-
+    fill: #afb1b8;
     height: 44px;
     width: 44px;
     border-radius: 50%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-    &hover {
+    background-color: #ffffff;
+    &:hover {
+      background-color: #2196f3;
+      fill: #ffffff;
       cursor: pointer;
       height: 44px;
       width: 44px;

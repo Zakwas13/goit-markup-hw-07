@@ -1,5 +1,6 @@
 .wallpaper {
   display: flex;
+  background-color: #2f303a;
 
   padding-top: 200px;
   padding-bottom: 200px;
@@ -29,6 +30,11 @@
 
     padding: 15px 45px 15px 45px;
     margin: auto;
+    color: #ffffff;
+    background: #2196f3;
+    &:focus {
+      color: #212121;
+    }
   }
   .wallpaper__title {
     font-weight: 900;
@@ -39,5 +45,6 @@
     text-transform: uppercase;
     color: #ffffff;
     padding-bottom: 30px;
+    color: #ffffff;
   }
 }

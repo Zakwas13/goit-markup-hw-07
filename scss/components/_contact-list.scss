@@ -7,6 +7,13 @@
     letter-spacing: 0.03em;
 
     text-decoration: none;
+    color: #ffffff;
+    &:focus {
+      color: #2196f3;
+    }
+    &:hover {
+      color: #2196f3;
+    }
   }
   .contact-list__between {
     padding-top: 9px;
@@ -17,6 +24,13 @@
     font-size: 14px;
     line-height: 1, 71428571;
     letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    &:focus {
+      color: #2196f3;
+    }
+    &:hover {
+      color: #2196f3;
+    }
   }
   .contact-list--decoration-not {
     text-decoration: none;

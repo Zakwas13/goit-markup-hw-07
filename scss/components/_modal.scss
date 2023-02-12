@@ -3,7 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  background: #ffffff;
   width: 528px;
   height: 581px;
 
@@ -27,6 +27,8 @@
   }
   .modal__title {
     font-style: normal;
+    font-family: "Roboto";
+    color: #212121;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
